@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 14px 40px;
+}
+
+.logo {
+  width: 150px;
+}
+
+.link-container {
+  display: flex;
+}
+
+.link-list {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.link:visited {
+  text-decoration: none;
+  color: black;
+}
