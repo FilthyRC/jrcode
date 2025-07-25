@@ -9,16 +9,17 @@ a:visited {
   justify-content: center;
   text-align: center;
   width: 75vw;
+  max-width: 1500px;
   margin: auto;
 }
 
 .intro-title {
-  font-size: 100px;
+  font-size: calc(50px + 3vw);
   font-weight: 400;
 }
 
 .intro-text {
-  font-size: 20px;
+  font-size: calc(20px + 1vw);
 }
 
 button {
@@ -66,29 +67,48 @@ button {
 }
 
 .img1 {
-  padding: 75px;
+  padding-top: 50px;
   display: block;
   width: 75vw;
+  max-width: 1500px;
   margin: auto;
 }
 
 .section-1 {
   background-color: #f7f6f6;
-  height: 500px;
   margin: auto;
+  padding-left: 50px;
 }
 
 .section-1-title {
   padding-top: 50px;
-  padding-left: 50px;
   margin-bottom: 0;
-  font-size: 50px;
+  font-size: calc(25px + 2vw);
   font-weight: 300;
   width: 45vw;
 }
 
 .section-1-subtitle {
-  padding-left: 50px;
-  font-size: 16px;
+  font-size: calc(7px + 0.5vw);
   width: 50vw;
+  padding-bottom: 25px;
+}
+
+.section-1-content {
+  width: 75vw;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.section-1-content img {
+  width: calc(25px + 1vw);
+  max-width: 100px;
+}
+
+.section-1-content h3 {
+  font-size: calc(7px + 0.5vw);
+  width: 400px;
 }
