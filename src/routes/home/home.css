@@ -110,5 +110,38 @@ button {
 
 .section-1-content h3 {
   font-size: calc(7px + 0.5vw);
-  width: 400px;
+  max-width: 20vw;
+}
+
+.section-2 {
+  background-color: #000000;
+  margin: auto;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+.section-2-title {
+  margin: 0;
+  padding-top: 50px;
+  font-size: calc(25px + 2vw);
+  font-weight: 300;
+  width: 45vw;
+}
+
+.section-2-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 75px;
+}
+
+.section-2-content img {
+  width: calc(200px + 2vw);
+  max-width: 500px;
+}
+
+.section-2-profile h3 {
+  font-size: calc(15px + 0.5vw);
 }

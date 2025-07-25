@@ -49,7 +49,7 @@ function Home() {
           </div>
           <div>
             <div>
-              <img src={Images.icon1} />
+              <img src={Images.icon2} />
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -63,7 +63,7 @@ function Home() {
           </div>
           <div>
             <div>
-              <img src={Images.icon1} />
+              <img src={Images.icon3} />
               <h3>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -74,6 +74,28 @@ function Home() {
                 sunt in culpa qui officia deserunt mollit anim id est laborum
               </h3>
             </div>
+          </div>
+        </div>
+      </div>
+      <div className="section-2">
+        <div className="section-2-header">
+          <h3 className="section-2-title">Our Team</h3>
+        </div>
+        <div className="section-2-content">
+          <div className="profile">
+            <img src={Images.pp} />
+            <h3>Ryan Campbell</h3>
+            <p>Co-Founder / Lead Developer</p>
+          </div>
+          <div className="profile">
+            <img src={Images.pp} />
+            <h3>Jonny Craig</h3>
+            <p>Founder / Lead Designer</p>
+          </div>
+          <div className="profile">
+            <img src={Images.pp} />
+            <h3>Mystery Guest</h3>
+            <p>Just here for beer</p>
           </div>
         </div>
       </div>
